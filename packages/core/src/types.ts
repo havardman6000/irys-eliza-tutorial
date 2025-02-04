@@ -1446,6 +1446,7 @@ export interface DataIrysFetchedFromGQL {
     success: boolean;
     data: any;
     error?: string;
+    address?: string
 }
 
 export interface GraphQLTag {
